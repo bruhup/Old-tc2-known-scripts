@@ -1,6 +1,6 @@
 getgenv().whitelist = "supersigma"
 
---[[
+
 local alstatus = loadstring(game:HttpGet('https://raw.githubusercontent.com/skibiditoiletfan2007/AlsikeTypicalColors2/main/status'))()
 if alstatus ~= true then
     warn("Alsike is down")
@@ -9,7 +9,7 @@ end
 if getgenv().whitelist ~= "supersigma" then
     game.Players.LocalPlayer:Kick("Wrong whitelist?")
 end
-]]
+
 warn('Alsike is loading.')
 local notiflib = loadstring(game:HttpGet('https://raw.githubusercontent.com/Breadido/Mewing10/main/mewing10_source.lua'))()
 local Tags = {
